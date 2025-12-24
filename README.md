@@ -17,7 +17,7 @@ steghide --help
 
 How to Use:
 1) Download any image from web or consider using an image in local system
-2) Then create a textfile Type in secret message
+2) Then create a text file Type in secret message
 3) Make sure both the above things are kept in same folder
 4) Open the Terminal from that folder
 5) steghide embed --embedfile [eg: text.txt] --coverfile [eg: cover.jpg]
