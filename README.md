@@ -4,8 +4,10 @@ Steghide is a command-line steganography tool that allows users to securely hide
 Steghide Tutorial
 
 Basic Steps:
+```bash
 sudo apt update
 sudo apt upgrade -Y
+```
 (This Ensures system has latest security patches and Software version)
 
 Install Steghide:
