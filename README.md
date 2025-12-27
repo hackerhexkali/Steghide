@@ -28,13 +28,14 @@ How to Use:
 2) Then create a text file: Type in secret message
 3) Make sure both the above things are kept in same folder
 4) Open the Terminal from that folder
+5) To embed the message to image:
 ```bash
 steghide embed --embedfile [eg: text.txt] --coverfile [eg: cover.jpg]
 ```
-5) passphrase would be prompted: type in password (!!Remember the password!!)
-6) To extract the message from the image:
+6) passphrase would be prompted: type in password (!!Remember the password!!)
+7) To extract the message from the image:
 ```bash
 steghide extract --stegofile [eg: cover.jpg]
 ```
-7) passphrase would be prompted: type in password
-8) Extraction complete 
+8) passphrase would be prompted: type in password
+9) Extraction complete 
