@@ -1,9 +1,1 @@
-sudo apt update
-sudo apt upgrade -Y
 
-sudo apt install steghide -Y
-
-steghide --help
-
-steghide embed --embedfile [eg: text.txt] --coverfile [eg: cover.jpg]
-steghide extract --stegofile [eg: cover.jpg]
