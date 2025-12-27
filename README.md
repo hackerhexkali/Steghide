@@ -8,7 +8,7 @@ Basic Steps:
 sudo apt update
 ```
 ```bash
-sudo apt upgrade -Y
+sudo apt upgrade -y
 ```
 (This Ensures system has latest security patches and Software version)
 
